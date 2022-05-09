@@ -8,6 +8,6 @@ describe("Pruebas automatizadas",()=>{
     test("2. Prueba para los correos",()=>{
         const emailPrueba = "Todd@visualpartnership.xyz";
         const listEmail = control.getEmailData();
-        expect(listEmail).toBe(emailPrueba);
+        expect(listEmail.emails[0]).toBe(emailPrueba);
     })
 })
