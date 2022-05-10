@@ -21,4 +21,14 @@ Linter para verificar y dar orden a la sintexis utilizada
 
 `npm install eslint --save-dev`
 
+---
+
+`"test": "node ./node_modules/.bin/jest",`
+
+`"server": "node ./lib/server.js",`
+
+`"linter": "node ./node_modules/eslint/bin/eslint.js .",`
+
+`"linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"`
+
 ### **Diagrama**
