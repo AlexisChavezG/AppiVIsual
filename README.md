@@ -23,6 +23,8 @@ Linter para verificar y dar orden a la sintexis utilizada
 
 ---
 
+##### Para el package.json
+
 `"test": "node ./node_modules/.bin/jest",`
 
 `"server": "node ./lib/server.js",`
@@ -31,4 +33,4 @@ Linter para verificar y dar orden a la sintexis utilizada
 
 `"linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"`
 
-### **Diagrama**
+### **Diagrama de funcionalidad**
