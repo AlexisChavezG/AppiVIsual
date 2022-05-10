@@ -9,5 +9,5 @@ describe("Pruebas automatizadas",()=>{
         const emailPrueba = "Todd@visualpartnership.xyz";
         const listEmail = control.getEmailData();
         expect(listEmail.emails[0]).toBe(emailPrueba);
-    })
+    });
 })
